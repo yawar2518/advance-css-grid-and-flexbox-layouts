@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar || Global Variables</title>
+</head>
+<style>
+
+    :root{
+        --color: rgba(26, 174, 152,0.5);
+        --seccolor: rgba(0, 85, 58, 0.5);
+        --textcolor: rgba(1, 31, 22, 0.723);
+    }
+    *{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: var(--color);
+    }
+
+    .nav-bar{
+        background-color: var(--seccolor);
+        margin: 20px;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    /* .nav-bar .nav{
+
+    } */
+
+    .nav-bar .nav li{
+        display: inline-block;
+        list-style: none;
+        margin-right: 45px;
+        font-weight: 900;
+    }
+
+    input[type="search"]{
+        margin-left: auto;
+        border-radius: 10px;
+        border: none;
+        height: 25px;
+        width: 165px;
+        color: var(--textcolor);
+        padding: 10px;
+    }
+    input::placeholder{
+        color: rgba(174, 165, 179, 0.5);
+        font-size: 1.1em ;
+    }
+
+    a:link{
+        text-decoration: none;
+        color: var(--textcolor);
+    }
+
+    a:visited{
+        color: var(--textcolor);
+    }
+
+    a:hover{
+        opacity: 0.7;
+    }
+</style>
+<body>
+    <div class="nav-bar">
+        <ul class="nav">
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> Updates </a></li>
+            <li><a href="#"> About </a></li>
+            <li><a href="#"> Contact </a></li>
+            <li><input id="srch" type="search" placeholder="search here"></li>
+        </ul>
+    </div>
+</body>
+</html>

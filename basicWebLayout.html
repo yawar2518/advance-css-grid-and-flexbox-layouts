@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(8, 7, 7, 0.801);
+            align-items: center;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            background-color: pink;
+            width: 100%;
+            height: 40px;
+        }
+
+        section {
+            padding: 1px;
+            box-sizing: border-box;
+            background-color: rgb(1, 65, 1);
+            height: 550px;
+            margin: 25px;
+        }
+
+        .box1 {
+            display: inline-block;
+            background-color: pink;
+            height: 450px;
+            width: 40%;
+            margin: 40px 0 40px 80px;
+        }
+
+        .box2 {
+            display: inline-block;
+            background-color: rgb(45, 154, 227);
+            height: 450px;
+            width: 40%;
+            margin: 40px 0 40px 120px;
+        }
+
+        .rectangle{
+            width: 75%;
+            height: 200px;
+            border: 2px solid white;
+            border-radius: 50px;
+            margin: 0 auto;
+            margin-bottom: 20px ;
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .rectangle h2{
+            margin-top: 80px;
+        }
+
+        .float{
+           height: 44px;
+           width: 44px;
+           background-image: url("https://wallpapers.com/images/hd/red-phone-contact-icon-5iotby143c9h4yed.png");
+           background-size:contain ;
+           border-radius: 30px;
+           position: fixed;
+           right: 10px;
+           bottom: 10px;
+           
+        }
+
+        .float img{
+            display: contents;
+            object-fit: fill;
+        }
+
+        footer{
+            height: 40px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+
+        </nav>
+    </div>
+    <section>
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+
+        </div>
+    </section>
+
+    <div class="box3">
+        <div class="rectangle">
+            <h2>Welcome to Sigma Web Development</h2>
+        </div>
+    </div>
+
+    <div class="float">
+    </div>
+
+    <footer></footer>
+</body>
+
+</html>
