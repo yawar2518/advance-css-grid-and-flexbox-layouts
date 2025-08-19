@@ -20,7 +20,7 @@ This folder contains advanced CSS layout examples and tasks, focusing on modern 
   Image assets used in the layout examples.
 
 > **Note:**  
-> The file `ue_english_64.exe` is not related to CSS or web layouts and should not be uploaded to your public repository for security and relevance reasons.
+> A downloadable .exe is not contained in this repository; you can manually link any of the .exe files to test the download function.
 
 ## Topics Covered
 
